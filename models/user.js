@@ -31,6 +31,6 @@ const userSchema = new Schema({
     nickname:{
         type:String
     }
-});
+},{timestamps:true});
 
 module.exports = mongoose.model('User', userSchema);
